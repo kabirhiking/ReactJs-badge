@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chatbot</title>
+    <title>ChatBot</title>
   </head>
   <body>
     <div class="js-container"></div>
@@ -16,21 +16,32 @@
     function ChatInput() {
       return (
         <>
-          <input />
+          <input placeholder="Send a message to ChatBot" size="30" />
           <button>Send</button>
         </>
       );
     }
 
-    const div = (
-        <>
-          
+
+    function ChatMessage() {
+      return (
+        <div>
+          hello ChatBot
+          <img src="user1.png" width="50"/>
+
+        </div>
+      )
+    }
+    
+    const app = (
+        <>     
           <ChatInput />
+          <ChatMessage />
         </>  //fragment component
       )
 
       const container = document.querySelector('.js-container');
-      ReactDOM.createRoot(container).render(div);
+      ReactDOM.createRoot(container).render(app);
     </script>
   </body>
 </html>
