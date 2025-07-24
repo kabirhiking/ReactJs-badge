@@ -1,4 +1,4 @@
-# ReactJs Badge Project
+# ReactJs Badge 
 
 This project is a simple ReactJS application designed to demonstrate the use of badges in a web interface.
 
