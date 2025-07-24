@@ -44,6 +44,9 @@ ReactJs-bage/
 - ReactJS
 - CSS
 
+## shots
+![alt text](image.png)
+
 ## License
 
 This project is licensed under the MIT License.
